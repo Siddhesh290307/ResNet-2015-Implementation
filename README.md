@@ -19,10 +19,6 @@ This project implements the **CIFAR-10 variant of ResNet-34**, trained completel
 
 ![alt text](assets/layers.png)
 
-**My Implementation: (He et al.)**
-
-![alt text](results/architecture.png)
-
 - **Input image size:** 224×224
 
 ---
