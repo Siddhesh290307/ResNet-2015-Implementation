@@ -3,7 +3,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import (Conv2D,BatchNormalization,Activation,MaxPooling2D,GlobalAveragePooling2D,Dense)
 
 #Importing residualblock
-from .residual_block import ResidualBlock
+from residual_block import ResidualBlock
 
 
 

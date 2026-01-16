@@ -24,7 +24,7 @@ def load_cifar10(
     train_ds = tf.data.Dataset.from_tensor_slices((x_train, y_train))
     test_ds = tf.data.Dataset.from_tensor_slices((x_test, y_test))
 
-    # Training pipeline
+    #Training pipeline
     train_ds = (
         train_ds
         #Randomizes sample order in each epoch

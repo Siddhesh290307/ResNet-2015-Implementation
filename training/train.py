@@ -27,7 +27,7 @@ def main():
         batch_size=BATCH_SIZE
     )
 
-    #Model Built
+    #Building Model
     model = ResNet34(num_classes=NUM_CLASSES)
 
     model.build((None, IMG_SIZE, IMG_SIZE, 3))

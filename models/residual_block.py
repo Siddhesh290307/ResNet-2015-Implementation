@@ -2,7 +2,7 @@
 from tensorflow.keras.layers import Layer, Activation, Add
 
 # Importing custom convolution block
-from .conv_layers import CustomConv2D
+from conv_layers import CustomConv2D
 
 #A single complete Residual Block
 class ResidualBlock(Layer):
